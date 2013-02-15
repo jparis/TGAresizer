@@ -25,7 +25,10 @@ namespace TGAresizer
 				Console.WriteLine("Saving image to file.");
 				// save back to file
 			}
-
+			else
+			{
+				// warn about not being able to resize.
+			}
 			Console.WriteLine("Done!");
 		}
 	}
