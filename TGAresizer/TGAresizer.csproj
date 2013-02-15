@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ITGAResize.cs" />
     <Compile Include="ResizeMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TGAResize.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
